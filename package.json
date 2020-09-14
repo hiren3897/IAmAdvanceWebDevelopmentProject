@@ -1,0 +1,36 @@
+{
+  "name": "adv-project",
+  "version": "1.0.0",
+  "description": "Advance Web Project Epita",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack --mode development",
+    "build": "webpack --mode production",
+    "start": "webpack-dev-server --mode development --open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hiren3897/IAmAdvanceWebDevelopmentProject.git"
+  },
+  "author": "Hiren Rathod",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hiren3897/IAmAdvanceWebDevelopmentProject/issues"
+  },
+  "homepage": "https://github.com/hiren3897/IAmAdvanceWebDevelopmentProject#readme",
+  "devDependencies": {
+    "@babel/core": "^7.11.1",
+    "@babel/preset-env": "^7.11.0",
+    "babel-loader": "^8.1.0",
+    "html-webpack-plugin": "^4.3.0",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "dependencies": {
+    "axios": "^0.19.2",
+    "babel-polyfill": "^6.26.0",
+    "core-js": "^3.6.5",
+    "regenerator-runtime": "^0.13.7"
+  }
+}
